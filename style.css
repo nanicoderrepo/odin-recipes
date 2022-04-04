@@ -8,10 +8,12 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
     text-decoration: underline;
+    color: red;
 }
 
 li a {
@@ -25,4 +27,12 @@ h1, h2, h3, p, ul>li, ol>li {
 
 p, ul>li, ol>li {
     line-height: 25px;
+}
+
+img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
