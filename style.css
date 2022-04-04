@@ -2,6 +2,27 @@
     font-family: 'Courier New', monospace, sans-serif;
 }
 
+body {
+    background-color: #202124;
+}
+
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li a {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1, h2, h3, p, ul>li, ol>li {
+    color: white;
+}
+
+p, ul>li, ol>li {
+    line-height: 25px;
 }
